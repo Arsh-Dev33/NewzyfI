@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/newsartone"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="About"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="inherit"
+            android:fontFamily="@font/cabin_regular"
+            android:text="NewszyFi App provides you instant News at your fingertip with just one click. It Provides various
+Categories to search for as per your requirement,various are shown at Dashboard along with app also
+covers various main Media Sources such as Google News,BBC,FOX,CNN and other.You can easily save the
+News offline for your convinent when you are out of Network. You can Share News via share feature."
+            android:layout_margin="10dp"
+            android:textSize="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

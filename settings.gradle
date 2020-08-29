@@ -1,0 +1,2 @@
+rootProject.name='NewzyFi'
+include ':app'

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Select Country :\n"/>
+
+
+        <RadioGroup
+            android:id="@+id/rd_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_india"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"/>
+
+            <RadioButton
+                android:id="@+id/rb_usa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USA"/>
+
+            <RadioButton
+                android:id="@+id/rb_uk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UK"/>
+
+            <RadioButton
+                android:id="@+id/rb_russia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Russia"/>
+
+            <RadioButton
+                android:id="@+id/rb_france"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"/>
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@android:color/holo_green_dark"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
